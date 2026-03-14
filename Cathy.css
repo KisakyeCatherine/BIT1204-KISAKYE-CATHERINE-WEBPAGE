@@ -1,0 +1,64 @@
+body{
+    font-family: arial;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    
+}
+
+header{
+    background-color: rgb(255, 192, 203);
+    color: white;
+    padding: 40px 20px;
+}
+
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    object-fit: cover;
+    border: 4px solid rgb(128, 0, 0);
+    margin-bottom: 15px;
+}
+nav{
+    background-color: rgb(128, 0, 0);
+    padding: 15px;
+}
+
+nav a{
+    color: rgb(52, 9, 9);
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: white;
+    
+}
+
+section{
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2{
+    color: rgb(128, 0, 0);
+}
+
+.skills span{
+    background: rgb(255, 192, 203);
+    padding: 8px 12px;
+    margin: 5px;
+    display: block;
+    border-radius: 6px;
+}
+
+footer{
+    background: rgb(128, 0, 0);
+    color: white;
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+}
